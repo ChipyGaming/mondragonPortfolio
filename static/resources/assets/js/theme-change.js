@@ -15,7 +15,7 @@ function switchTheme(e) {
         localStorage.setItem('theme', 'dark');
     }
     else {        document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'dark');
+          localStorage.setItem('theme', 'light');
     }    
 }
 
