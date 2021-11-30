@@ -46,7 +46,7 @@ npm test
 * [NuxtJS](https://nuxtjs.org/) - Dependency Management
 
 
-[Frontend-image]: https://img.shields.io/badge/Frontend-VUE-green?style=for-the-badge
-[Frontend-url]: https://img.shields.io/badge/Frontend-VUE-green?style=for-the-badge
+[Frontend-image]: https://img.shields.io/badge/Frontend-NUXT-green?style=for-the-badge
+[Frontend-url]: https://img.shields.io/badge/Frontend-NUXT-green?style=for-the-badge
 [Backend-image]: https://img.shields.io/badge/BackEnd-JSON-red?style=for-the-badge
 [Backend-url]: https://img.shields.io/badge/BackEnd-JSON-red?style=for-the-badge
