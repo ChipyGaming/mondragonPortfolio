@@ -1,7 +1,6 @@
 
 
 # Miguel Guerra-Mondragon Portfolio
-[![Project Version][version-image]][version-url]
 [![Frontend][Frontend-image]][Frontend-url]
 [![Backend][Backend-image]][Backend-url]
 
