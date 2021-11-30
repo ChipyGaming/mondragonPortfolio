@@ -4,9 +4,7 @@
 [![Frontend][Frontend-image]][Frontend-url]
 [![Backend][Backend-image]][Backend-url]
 
-> Short blurb about your project idea.
-
-Portfolio site to demonstrate my skills, past projects, and employement
+> Portfolio site to demonstrate my skills, past projects, and employement
 
 ---
 ## Author
