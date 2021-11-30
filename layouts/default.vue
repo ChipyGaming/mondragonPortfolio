@@ -33,7 +33,7 @@
               </ul>
           </div>
           
-          <div class="mobile-position">
+         <div class="mobile-position">
               <nav class="navigation">
                   <div class="theme-switch-wrapper">
                       <label class="theme-switch" for="checkbox">
