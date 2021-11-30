@@ -11,32 +11,11 @@
 
 **Miguel Guerra** 
 
-## Installation
+## Link To View
 
-Describe how to get your project running.
 
-MacOS & Linux:
-
-```sh
-npm install my-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
 
 ---
-
-## Development setup
-
-Describe how to install all development dependencies and consider do this for multiple platforms.  
-
-```sh
-make install
-npm test
-```
 
 
 ## Built With
