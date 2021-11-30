@@ -7,15 +7,12 @@
 
 > Short blurb about your project idea.
 
-One or two paragraphs about your project and what it does.
+Portfolio site to demonstrate my skills, past projects, and employement
 
 ---
 ## Author
 
 **Miguel Guerra** 
-* *Initial work* - [repository-name][repository-url] (Repository space)
-* *Released on* [cloud-provider][cloud-provider-url] (Cloud provider)
-* *My professional profile on* [LinkedIn][linkedin-url]
 
 ## Installation
 
@@ -50,7 +47,7 @@ npm test
 * [NuxtJS](https://nuxtjs.org/) - Dependency Management
 
 
-[Frontend-image]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Frontend-url]: https://img.shields.io/badge/Frontend-Ionic-blue?style=for-the-badge
-[Backend-image]: https://img.shields.io/badge/Backend-JSON%-important?style=for-the-badge
-[Backend-url]: https://img.shields.io/badge/Backend-JSON%-important?style=for-the-badge
+[Frontend-image]: https://img.shields.io/badge/Frontend-VUE-green?style=for-the-badge
+[Frontend-url]: https://img.shields.io/badge/Frontend-VUE-green?style=for-the-badge
+[Backend-image]: https://img.shields.io/badge/BackEnd-JSON-red?style=for-the-badge
+[Backend-url]: https://img.shields.io/badge/BackEnd-JSON-red?style=for-the-badge
