@@ -22,13 +22,13 @@
                      <nuxt-link to="/" class="nav-link" >Home <span class="sr-only">(current)</span></nuxt-link>
                   </li>
                   <li class="nav-item @@about__active">
-                      <nuxt-link to="/myself" class="nav-link" >About</nuxt-link>
+                      <nuxt-link :to="{ path: '/',hash:'#work'}" class="nav-link">Work</nuxt-link>
                   </li>
                   <li class="nav-item @@projects__active">
-                      <nuxt-link to="/projects" class="nav-link" >Project</nuxt-link>
+                      <nuxt-link :to="{ path: '/',hash:'#projects'}" class="nav-link">Projects</nuxt-link>
                   </li>
                   <li class="nav-item @@contact__active">
-                      <nuxt-link to="/contact" class="nav-link" >Contact</nuxt-link>
+                      <nuxt-link :to="{ path: '/',hash:'#contact'}" class="nav-link">Contact</nuxt-link>
                   </li>
               </ul>
           </div>
@@ -60,7 +60,7 @@
     <div class="footer-content">
       <div class="row">
         <div class="col-lg-8 footer-left">
-          <p class="m-0">{{data.main.shortname}} © Copyright 2021. Developed by <a href="https://baizidmdashadzzaman.com/" target="_blank">ASADZAMAN</a></p>
+          <p class="m-0">{{data.main.shortname}} © Copyright 2021. Developed by Miguel Guerra</a></p>
         </div>
         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
           <ul class="social m-0 p-0">

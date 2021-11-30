@@ -4,7 +4,7 @@ export default {
 
   // Global App headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Asadzaman : Programmer/Developer/Engineer',
+    title: 'Miguel : Front-End Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

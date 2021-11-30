@@ -1,24 +1,23 @@
 {
     "main": {
-        "name": "Baizid MD Ashadzzaman",
-        "shortname": "Zaman",
-        "occupation": "Developer / Programmer / Engineer",
-        "description": "Eat, sleep, code, repeat.",
-        "yearofexperience": "05",
-        "age": "25",
-        "designation": "Software engineer",
+        "name": "Miguel Guerra-Mondragon",
+        "shortname": "Chipy",
+        "occupation": "Front-End Developer",
+        "description": "",
+        "yearofexperience": "03",
+        "age": "24",
+        "designation": "Software Engineer",
         "image": "/images/photo.png",
         "fullimage": "/images/myphoto1.jpg",
-        "bio": "Hi there! I have been very passionate about computers and programming since my university life. I dream to be an expert software engineer so that I can build professional and useful software that has business value. I am looking for a junior software engineer position in a reputed software company that can help me to achieve my goal.",
-        "contactmessage": "Get in touch with me to to build any software for your business.!",
-        "email": "baizid.md.ashadzzaman@gmail.com",
-        "phone": "+88 01862420119",
-        "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.6698920746726!2d91.8166201143615!3d22.328320947520915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8b3c659a4fb%3A0xcf4c00425d483eb6!2s12%20Quarter%20Ln%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1631249930628!5m2!1sen!2sbd",
+        "bio": "I have been using computers to play video games since I can remember, and I've always loved the idea of being able to build something, and that's what software allows me to do. Combine my imagination with my tools to create.",
+        "contactmessage": "Get in touch with me to to build projects for your business.!",
+        "email": "mguerra6@asu.edu",
+        "phone": "Upon Request",
+        "mapaddress": "",
         "address": {
-            "street": "Pahartoli 12 quater",
-            "city": "Chittagong",
-            "state": "Bangladesh",
-            "zip": "4202"
+            "city": "Gilbert",
+            "state": "Arizona",
+            "zip": "85233"
         },
         "quotes1": {
             "sectiontitle": "My resume",
@@ -36,30 +35,20 @@
             "awardrecived": "15",
             "happyclinet": "100"
         },
-        "resumedownload": "https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view",
+        "resumedownload": "https://docs.google.com/document/d/1mEMxltf37oH2zE_5JcisVvXuNqj1MI-5-yMKqIGYs24/edit?usp=sharing",
         "social": [{
                 "name": "youtube",
-                "url": "https://www.youtube.com/channel/UCGP5kbtnscx5uTN5suCZfMA?view_as=subscriber",
+                "url": "https://www.youtube.com/channel/UC4YJZ4OiDpXEyJ0V-cFUPtg",
                 "className": "fa fa-youtube"
             },
             {
-                "name": "facebook",
-                "url": "https://www.facebook.com/asadzaman0167",
-                "className": "fa fa-facebook"
-            },
-            {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/in/zamanasad/",
+                "url": "https://www.linkedin.com/in/chipymiguel/",
                 "className": "fa fa-linkedin"
             },
             {
-                "name": "instagram",
-                "url": "https://www.instagram.com/iamasadzaman/",
-                "className": "fa fa-instagram"
-            },
-            {
                 "name": "github",
-                "url": "https://github.com/Baizidmdashadzzaman",
+                "url": "https://github.com/ChipyGaming",
                 "className": "fa fa-github"
             }
         ]
@@ -67,16 +56,43 @@
     "resume": {
         "skillmessage": "My Programming Language Proficiency",
         "education": [{
-            "school": "International Islamic University Chittagong.",
-            "degree": "Bachelor's Degree, Computer Science",
-            "graduated": "July 2018",
-            "description": "Graduated with First Class Honours"
+            "school": "Arizona State University",
+            "degree": "Bachelor's Degree, Informatics",
+            "graduated": "Dec 2019",
+            "description": "OOP, UI/UX Design, Web Development, Data Analysis, Human-Computer Interaction and More"
+        }],
+        "certificate": [{
+            "school": "Arizona State University",
+            "degree": "Certificate, Computer Gaming",
+            "graduated": "Dec 2019",
+            "description": "Game Development, Game Engine Development, 3D Modeling, Level Creation and More"
         }],
         "work": [{
-            "company": "Scandicsoft",
-            "title": "Software engineer",
-            "years": "Jan 2018 - Present",
-            "description": "Developing some userfriendly and best software."
+            "company": "Rise Above Enterprise",
+            "title": "Web Designer",
+            "years": "Sept 2021 - Present",
+            "description": "UI/UX designing, competitor research, domain management, SEO, and developing sites.",
+            "technologies": "Wordpress, Photoshop, Elementor, InDesign, HTML/CSS/JS"
+        }],
+        "work2": [{
+            "company": "PURE Esports",
+            "title": "Event Cooordinator/Staff",
+            "years": "Aug 2021 - Present",
+            "description": "Gaming lounge where I run tournaments for TFT, League of Legends, Valorant, CSGO and more. Been helping out here for 2 years"
+        }],
+        "work3": [{
+            "company": "UpWork",
+            "title": "Freelance Web Designer",
+            "years": "May 2021 - Sept 2021",
+            "description": "Latest project: Shopify Ecommerce site for trading cards that was redesigned and reorganized to increase sales and usability.",
+            "technologies": "Shopify/Liquid, HTML/CSS/JS, Photoshop"
+        }],
+        "work4": [{
+            "company": "CVS Pharmacy",
+            "title": "Lead Pharmacy Technician",
+            "years": "June 2016 - July 2021",
+            "description": "Worked through four promotions at CVS which taught me time management, communication within a team, leadership and customer service skills",
+            "technologies": "Wordpress, Photoshop, Elementor, InDesign, HTML/CSS/JS"
         }],
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, odit! Perspiciatis et consequuntur non, modi quo mollitia labore laborum voluptas quia officiis fugit soluta molestias quaerat sapiente sunt. ",
@@ -105,21 +121,24 @@
     "portfolio": {
         "projects": [{
                 "no":"01",
-                "title": "RMS with AR",
-                "description": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.",
-                "url": "https://www.youtube.com/watch?v=0feY896TmH4"
+                "title": "Driver Tracking Android App",
+                "description": "Worked with a group of three other students to develop a proof of concept driver tracking app for Pizza Hut’s mobile app. Using Android Studios and Google’s API, we developed a working prototype between two phones using Firebase, that functioned similar to Uber Eats or Lyft. The app has driver time estimates, live driver tracking, push notification, and more.",
+                "url": "https://drive.google.com/file/d/1cPkpTYqziK1y0Yv-lDt8fsI6qb8zoFKc/view",
+                "technologies": "Java, XML, Firebase, Google API, Android Studios"
             },
             {
                 "no":"02",
-                "title": "Prothom alo clone",
-                "description": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.",
-                "url": "https://www.youtube.com/watch?v=7pRx_hiXxwg&t=30s"
+                "title": "Psychology Web Game",
+                "description": "Worked with a group of three other students to develop an educational video game for ASU’s online school (K-12) psychology class. The game features a scavenger hunt for clues that teach students about the different types of psychology.",
+                "url": "https://chipy232323.itch.io/psychology-game",
+                "technologies": "Unity(C#), 3DS Max"
             },
             {
                 "no":"03",
-                "title": "Chaldal Clone",
-                "description": "Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.",
-                "url": "https://www.youtube.com/watch?v=PDvlbujWmIs&t=3s"
+                "title": "Portfolio",
+                "description": "The site you are currently on",
+                "url": "",
+                "technologies": "VueJS/NuxtJS, Netlify, JSON, CSS"
             }
         ]
     },
