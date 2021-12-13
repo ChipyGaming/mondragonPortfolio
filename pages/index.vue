@@ -35,6 +35,10 @@
                         <div class="single-info"><span>Email:</span>
                             <p><a :href="data.main.email">{{data.main.email}}</a></p>
                         </div>
+                        <div class="single-info"><span>Skills:</span>
+                            <p>{{data.main.skills}}</p>
+                        </div>
+                        
                     </div>
                     <div class="my-social mt-lg-5 mt-4">
                         <a :href="data.main.resumedownload" target="_blank" class="btn btn-style btn-primary">View CV</a>
@@ -50,7 +54,6 @@
         </div>
     </div>
 </section>
-
 
 
 <section class="w3l-services">
@@ -192,18 +195,23 @@
                     <div class="col-md-4 col-sm-12 col-xs-12" v-for="project in data.portfolio.projects" v-bind:key="project">
                         <div class="item">
                             <div class="card">
-								<a :href="project.url" target="_blank">
                                 <div class="box-wrap">
+                                    
                                     <div class="icon">
                                         <span class="fa fa-pencil-square-o"></span>
+                                        &nbsp;
+                                        <a :href="project.github" target="_blank" class="fa fa-github fa-2x"></a>
                                     </div>
                                     <h4 class="number">{{project.no}}</h4>
-                                    <h4><a >{{project.title}}</a></h4>
+                                    <br>
+                                    <h3>{{project.title}}</h3>
                                     <p>{{project.description}}</p>
                                     <br>
                                     <p>Tech Stack: {{project.technologies}}</p>
+                                    <br>
+                                    <a :href="project.url" target="_blank" class="btn btn-style btn-primary">View Project</a>
+                                    
                                 </div>
-								</a>
                             </div>
                         </div>
                     </div>

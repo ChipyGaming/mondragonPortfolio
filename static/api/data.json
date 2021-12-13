@@ -14,6 +14,7 @@
         "email": "mguerra6@asu.edu",
         "phone": "Upon Request",
         "mapaddress": "",
+        "skills": "VueJs, JavaScript, HTML, CSS, Bootstrap, Tailwind, NodeJs, C#, Java",
         "address": {
             "city": "Gilbert",
             "state": "Arizona",
@@ -71,37 +72,36 @@
             "company": "Rise Above Enterprise",
             "title": "Web Designer",
             "years": "Sept 2021 - Present",
-            "description": "UI/UX designing, competitor research, domain management, SEO, and developing sites.",
+            "description": "Develop inhouse or outsourced websites in various sectors. This includes competitor research, sitemapping, designing, developing, SEO, and testing.",
             "technologies": "Wordpress, Photoshop, Elementor, InDesign, HTML/CSS/JS"
         }],
         "work2": [{
             "company": "PURE Esports",
             "title": "Event Cooordinator/Staff",
             "years": "Aug 2021 - Present",
-            "description": "Gaming lounge where I run tournaments for TFT, League of Legends, Valorant, CSGO and more. Been helping out here for 2 years"
+            "description": "Local gaming lounge where I assist in running tournaments, events, and occasionally work regular shift. Been helping out here for over 2 years, but joined the team in August"
         }],
         "work3": [{
             "company": "UpWork",
             "title": "Freelance Web Designer",
             "years": "May 2021 - Sept 2021",
-            "description": "Latest project: Shopify Ecommerce site for trading cards that was redesigned and reorganized to increase sales and usability.",
-            "technologies": "Shopify/Liquid, HTML/CSS/JS, Photoshop"
+            "description": "Contacted clients on UpWork to redesign the frontend side of their websites. Worked closely with each client to ensure everything they requested was put in. Weekly meetings with clients on updates/feedback.",
+            "technologies": "Shopify/Liquid, Wordpress HTML/CSS/JS, Photoshop"
         }],
         "work4": [{
             "company": "CVS Pharmacy",
             "title": "Lead Pharmacy Technician",
             "years": "June 2016 - July 2021",
-            "description": "Worked through four promotions at CVS which taught me time management, communication within a team, leadership and customer service skills",
-            "technologies": "Wordpress, Photoshop, Elementor, InDesign, HTML/CSS/JS"
+            "description": "Began as a cashier back in 2016, going through roles such as supervisor, operations manager, pharmacy technician, and eventually lead. These positions taught me a lot about communcating with people, leadership, respect, and how to learn quickly"
         }],
         "skillssectiontitle":"Motivated by the Desire to achieve Success",
         "skillssectiondescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, odit! Perspiciatis et consequuntur non, modi quo mollitia labore laborum voluptas quia officiis fugit soluta molestias quaerat sapiente sunt. ",
         "skills": [{
-                "name": "Php",
+                "name": "Vue",
                 "level": "90%"
             },
             {
-                "name": "Python",
+                "name": "C#",
                 "level": "60%"
             },
             {
@@ -120,25 +120,37 @@
     },
     "portfolio": {
         "projects": [{
+
                 "no":"01",
-                "title": "Driver Tracking Android App",
-                "description": "Worked with a group of three other students to develop a proof of concept driver tracking app for Pizza Hut’s mobile app. Using Android Studios and Google’s API, we developed a working prototype between two phones using Firebase, that functioned similar to Uber Eats or Lyft. The app has driver time estimates, live driver tracking, push notification, and more.",
-                "url": "https://drive.google.com/file/d/1cPkpTYqziK1y0Yv-lDt8fsI6qb8zoFKc/view",
-                "technologies": "Java, XML, Firebase, Google API, Android Studios"
+                "title": "Riot Games Tracker",
+                "description": "This VueJS application was made so users can input their Riot Games Summoner Name and look at their rank for all riot titles, League of Legends, Teamfight Tactics, Valorant and Legends of Runeterra. I made this to practice working with APIs along with creating a frontend using that constantly changing data.",
+                "url": "",
+                "technologies": "VueJS, NodeJs, CSS, Netlify/Heroku",
+                "github": "https://github.com/ChipyGaming/riotTracker"
             },
             {
                 "no":"02",
-                "title": "Psychology Web Game",
-                "description": "Worked with a group of three other students to develop an educational video game for ASU’s online school (K-12) psychology class. The game features a scavenger hunt for clues that teach students about the different types of psychology.",
-                "url": "https://chipy232323.itch.io/psychology-game",
-                "technologies": "Unity(C#), 3DS Max"
+                "title": "Portfolio",
+                "description": "The site you are currently on! I decided to use a framework based on VueJs, NuxtJs for the frontend. To gain more experience using data, I compiled all my data (name, social, portfolio, even this description you're currently reading) into a JSON file and I grab the information for each section that way. This also makes it much easier to update information.",
+                "url": "",
+                "technologies": "VueJS/NuxtJS, CSS & BootStrap, JSON, Netlify",
+                "github": "https://github.com/ChipyGaming/mondragonPortfolio"
             },
             {
                 "no":"03",
-                "title": "Portfolio",
-                "description": "The site you are currently on",
-                "url": "",
-                "technologies": "VueJS/NuxtJS, Netlify, JSON, CSS"
+                "title": "Psychology Web Game",
+                "description": "Worked with a group of three other students to develop an educational video game for ASU’s online school (K-12) psychology class. The game features a scavenger hunt for clues that teach students about the different types of psychology.",
+                "url": "https://chipy232323.itch.io/psychology-game",
+                "technologies": "Unity(C#), 3DS Max, Blender",
+                "github": "https://github.com/ChipyGaming/psychologyGame"
+            },
+            {
+                "no":"04",
+                "title": "Driver Tracking Android App",
+                "description": "Worked with a group of three other students to develop a proof of concept driver tracking app for Pizza Hut’s mobile app. Using Android Studios and Google’s API, we developed a working prototype between two phones using Firebase, that functioned similar to Uber Eats or Lyft. The app has driver time estimates, live driver tracking, push notification, and more.",
+                "url": "https://drive.google.com/file/d/1cPkpTYqziK1y0Yv-lDt8fsI6qb8zoFKc/view",
+                "technologies": "Java, XML, Firebase, Google API, Android Studios",
+                "github": "https://github.com/ChipyGaming/pizzaHutAndroid"
             }
         ]
     },

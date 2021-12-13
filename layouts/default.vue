@@ -60,7 +60,7 @@
     <div class="footer-content">
       <div class="row">
         <div class="col-lg-8 footer-left">
-          <p class="m-0">{{data.main.shortname}} © Copyright 2021. Developed by Miguel Guerra</a></p>
+          <p class="m-0">{{data.main.shortname}} © Copyright 2021. Developed by Miguel Guerra</p>
         </div>
         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
           <ul class="social m-0 p-0">
