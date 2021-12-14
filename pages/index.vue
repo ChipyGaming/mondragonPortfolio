@@ -233,8 +233,8 @@
 <section>
   <div class="container">
     <div>
-        <h5 class="title-small text-center">Blog</h5>
-        <h3 class="title-big text-center mb-sm-5 mb-4">Updates On My Projects</h3>
+        <h5 class="title-small text-center">Dev Blog</h5>
+        <h3 class="title-big text-center mb-sm-5 mb-4">Updates on My Projects </h3>
       <Loader v-if="$fetchState.pending" />
       <div v-else>
         <post-item v-for="post in posts.slice(0,2)" :key="post.date" :post="post" />
@@ -250,7 +250,7 @@
 <div id = "contact" class="anchor"></div>
 <section class="w3l-contact-1 py-5">
     <h5 class="title-small text-center">Contact Me</h5>
-    <h3 class="title-big text-center mb-sm-5 mb-4">Usually available within 24 hours!</h3>
+    <h3 class="title-big text-center mb-sm-5 mb-4">Usually Available Within 24 Hours!</h3>
     <div class="contacts-9 py-lg-5 py-md-4">
         <div class="container">
             <div class="d-grid contact-view">
