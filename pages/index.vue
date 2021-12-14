@@ -237,7 +237,10 @@
         <h3 class="title-big text-center mb-sm-5 mb-4">Updates On My Projects</h3>
       <Loader v-if="$fetchState.pending" />
       <div v-else>
-        <post-item v-for="post in posts" :key="post.date" :post="post" />
+        <post-item v-for="post in posts.slice(0,2)" :key="post.date" :post="post" />
+      </div>
+      <div class="col text-center">
+        <a href="/Blog" class="btn btn-style btn-primary" style="center">View Full Posts</a>
       </div>
     </div>
   </div>

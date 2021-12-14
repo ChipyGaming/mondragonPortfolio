@@ -1,8 +1,10 @@
 <template>
   <div class="post-item">
+    <div :id="post.title" class="anchor" />
     <h3>{{ post.title }}</h3>
-    <div class="the-excerpt" v-html="post.excerpt"></div>
-  </div>
+    <div v-html="post.post_id"></div>
+    <div class="the-excerpt" v-html="post.content"></div>
+    </div>
 </template>
 
 <script>
@@ -17,6 +19,9 @@ export default {
 </script>
 
 <style scoped>
+.the-excerpt{
+  line-height: 200%;
+}
 .post-item {
   box-shadow: 0 0 5px #8e43e7;
   border: 1px solid transparent;
