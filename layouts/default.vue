@@ -67,8 +67,8 @@
         </div>
         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
           <ul class="social m-0 p-0">
-            <li v-for="socaildata in data.main.social" v-bind:key="socaildata">
-              <a :href="socaildata.url"><span :class="socaildata.className"></span></a>
+            <li v-for="socialdata in data.main.social" v-bind:key="socialdata">
+              <a :href="socialdata.url" target="_blank"><span :class="socialdata.className"></span></a>
             </li>
             
           </ul>

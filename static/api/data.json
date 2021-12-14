@@ -38,9 +38,9 @@
         },
         "resumedownload": "https://docs.google.com/document/d/1mEMxltf37oH2zE_5JcisVvXuNqj1MI-5-yMKqIGYs24/edit?usp=sharing",
         "social": [{
-                "name": "youtube",
-                "url": "https://www.youtube.com/channel/UC4YJZ4OiDpXEyJ0V-cFUPtg",
-                "className": "fa fa-youtube"
+                "name": "github",
+                "url": "https://github.com/ChipyGaming",
+                "className": "fa fa-github"
             },
             {
                 "name": "linkedin",
@@ -48,9 +48,9 @@
                 "className": "fa fa-linkedin"
             },
             {
-                "name": "github",
-                "url": "https://github.com/ChipyGaming",
-                "className": "fa fa-github"
+                "name": "twitter",
+                "url": "https://twitter.com/imMondragon",
+                "className": "fa fa-twitter"
             }
         ]
     },
@@ -85,7 +85,7 @@
             "company": "UpWork",
             "title": "Freelance Web Designer",
             "years": "May 2021 - Sept 2021",
-            "description": "Contacted clients on UpWork to redesign the frontend side of their websites. Worked closely with each client to ensure everything they requested was put in. Weekly meetings with clients on updates/feedback.",
+            "description": "Contacted clients on UpWork to redesign the frontend of their websites. Worked closely with each client to ensure everything they requested was put in. Weekly meetings with clients on updates/feedback.",
             "technologies": "Shopify/Liquid, Wordpress HTML/CSS/JS, Photoshop"
         }],
         "work4": [{
@@ -123,21 +123,29 @@
 
                 "no":"01",
                 "title": "Riot Games Tracker",
-                "description": "This VueJS application was made so users can input their Riot Games Summoner Name and look at their rank for all riot titles, League of Legends, Teamfight Tactics, Valorant and Legends of Runeterra. I made this to practice working with APIs along with creating a frontend using that constantly changing data.",
+                "description": "This VueJS application was made so users can input their Riot Games name and look at their rank for all Riot published titles such as, League of Legends, Teamfight Tactics, Valorant and Legends of Runeterra. I made this to gain more experience working with APIs and make a visual way to share stats with friends.",
                 "url": "",
                 "technologies": "VueJS, NodeJs, CSS, Netlify/Heroku",
                 "github": "https://github.com/ChipyGaming/riotTracker"
             },
             {
+
                 "no":"02",
+                "title": "Project MONTRIO",
+                "description": "Top-down, zelda inspried, action RPG developed in Game Maker Studios 2. In the past I have enjoyed making game mechanics, or movement and then scraping the idea, but I am going to be dedicating time to create this project by following lots of tutorials, and constantly posting updates on it.",
+                "url": "",
+                "technologies": "Game Maker Studios 2, Aseprite, Youtube Tutorials"
+            },
+            {
+                "no":"03",
                 "title": "Portfolio",
                 "description": "The site you are currently on! I decided to use a framework based on VueJs, NuxtJs for the frontend. To gain more experience using data, I compiled all my data (name, social, portfolio, even this description you're currently reading) into a JSON file and I grab the information for each section that way. This also makes it much easier to update information.",
-                "url": "",
+                "url": "https://chipymiguel.com",
                 "technologies": "VueJS/NuxtJS, CSS & BootStrap, JSON, Netlify",
                 "github": "https://github.com/ChipyGaming/mondragonPortfolio"
             },
             {
-                "no":"03",
+                "no":"04",
                 "title": "Psychology Web Game",
                 "description": "Worked with a group of three other students to develop an educational video game for ASU’s online school (K-12) psychology class. The game features a scavenger hunt for clues that teach students about the different types of psychology.",
                 "url": "https://chipy232323.itch.io/psychology-game",
@@ -145,9 +153,9 @@
                 "github": "https://github.com/ChipyGaming/psychologyGame"
             },
             {
-                "no":"04",
-                "title": "Driver Tracking Android App",
-                "description": "Worked with a group of three other students to develop a proof of concept driver tracking app for Pizza Hut’s mobile app. Using Android Studios and Google’s API, we developed a working prototype between two phones using Firebase, that functioned similar to Uber Eats or Lyft. The app has driver time estimates, live driver tracking, push notification, and more.",
+                "no":"05",
+                "title": "Pizza Hut Delivery Tracking",
+                "description": "Worked with a group of three other students to develop a proof of concept driver tracking app for Pizza Hut’s mobile app. Using Android Studios and Google Maps API, we developed a working prototype between two phones using Firebase, that functioned similar to Uber Eats or Lyft. The app has driver time estimates, live driver tracking, push notification, and more.",
                 "url": "https://drive.google.com/file/d/1cPkpTYqziK1y0Yv-lDt8fsI6qb8zoFKc/view",
                 "technologies": "Java, XML, Firebase, Google API, Android Studios",
                 "github": "https://github.com/ChipyGaming/pizzaHutAndroid"

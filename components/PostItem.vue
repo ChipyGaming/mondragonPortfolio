@@ -1,9 +1,7 @@
 <template>
   <div class="post-item">
-    <a :href = "post.URL" target="_blank">
     <h3>#{{ post.id }}: {{ post.title }}</h3>
     <div class="the-excerpt" v-html="post.content"></div>
-    </a>
   </div>
 </template>
 

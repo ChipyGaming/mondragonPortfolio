@@ -41,7 +41,7 @@
                         
                     </div>
                     <div class="my-social mt-lg-5 mt-4">
-                        <a :href="data.main.resumedownload" target="_blank" class="btn btn-style btn-primary">View CV</a>
+                        <a :href="data.main.resumedownload" class="btn btn-style btn-primary">View CV</a>
                         <ul class="social m-0 p-0">
                             <li v-for="social in data.main.social" v-bind:key="social" >
                                 <a :href="social.url" target="_blank"><span :class="social.className"></span></a>
@@ -200,7 +200,7 @@
                                     <div class="icon">
                                         <span class="fa fa-pencil-square-o"></span>
                                         &nbsp;
-                                        <a :href="project.github" target="_blank" class="fa fa-github fa-2x"></a>
+                                        <a :href="project.github" target="_blank" class="fa fa-github fa-2x" v-if="project.github"></a>
                                     </div>
                                     <h4 class="number">{{project.no}}</h4>
                                     <br>
@@ -209,7 +209,8 @@
                                     <br>
                                     <p>Tech Stack: {{project.technologies}}</p>
                                     <br>
-                                    <a :href="project.url" target="_blank" class="btn btn-style btn-primary">View Project</a>
+                                    <a :href="project.url" class="btn btn-style btn-primary" v-if="project.url">View Project</a>
+                                    <nuxt-link :to="{ path: '/',hash:'#blog'}" class="btn btn-style btn-primary" v-else>View Blog</nuxt-link>
                                     
                                 </div>
                             </div>
@@ -286,7 +287,7 @@
                         </div>
                         <div class="cont-right">
                             <h6>{{social.name}}</h6>
-                            <p><a :href="social.url"><font size="2px">{{social.url}}</font></a></p>
+                            <p><a :href="social.url" target="_blank"><font size="2px">{{social.url}}</font></a></p>
                         </div>
                     </div>
                    
