@@ -13,7 +13,7 @@
 
 <div id = "blog" class="anchor"></div>
 <section>
-  <div class="container">
+  <div>
     <div>
         <h5 class="title-small text-center">Blog</h5>
         <h3 class="title-big text-center mb-sm-5 mb-4">Updates On My Projects</h3>

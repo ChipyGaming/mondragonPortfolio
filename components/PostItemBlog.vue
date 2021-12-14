@@ -1,10 +1,12 @@
 <template>
+<div class = "container" id="container">
   <div class="post-item">
     <div :id="post.title" class="anchor" />
     <h3>{{ post.title }}</h3>
     <div v-html="post.post_id"></div>
     <div class="the-excerpt" v-html="post.content"></div>
     </div>
+</div>
 </template>
 
 <script>
@@ -29,4 +31,5 @@ export default {
   margin: 20px 0;
   padding: 20px;
 }
+
 </style>
