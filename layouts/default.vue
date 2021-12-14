@@ -27,6 +27,9 @@
                   <li class="nav-item @@projects__active">
                       <nuxt-link :to="{ path: '/',hash:'#projects'}" class="nav-link">Projects</nuxt-link>
                   </li>
+                  <li class="nav-item @@blog__active">
+                      <nuxt-link :to="{ path: '/',hash:'#blog'}" class="nav-link">Blog</nuxt-link>
+                  </li>
                   <li class="nav-item @@contact__active">
                       <nuxt-link :to="{ path: '/',hash:'#contact'}" class="nav-link">Contact</nuxt-link>
                   </li>
@@ -78,8 +81,11 @@
   <button onclick="topFunction()" id="movetop" title="Go to top">
     <span class="fa fa-angle-up"></span>
   </button>
+  
 
 </section>
+
+
 
 
 </div>

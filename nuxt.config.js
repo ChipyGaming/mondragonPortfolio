@@ -36,8 +36,21 @@ export default {
 
   ],
   },
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  build: {
+    babel: {
+      presets({isServer}) {
+        const targets = isServer ? { node: 'current' } : { ie: 11 }
+        return [
+          [ require.resolve("@babel/preset-env"), { targets }  ]
+        ]
+      },
+      plugins: [
+        "@babel/syntax-dynamic-import",
+        "@babel/transform-runtime",
+        "@babel/transform-async-to-generator"
+      ]
+    },
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

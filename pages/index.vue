@@ -228,6 +228,21 @@
 </section>
 
 
+<div id = "blog" class="anchor"></div>
+<section>
+  <div class="container">
+    <div>
+        <h5 class="title-small text-center">Blog</h5>
+        <h3 class="title-big text-center mb-sm-5 mb-4">Updates On My Projects</h3>
+      <Loader v-if="$fetchState.pending" />
+      <div v-else>
+        <post-item v-for="post in posts" :key="post.date" :post="post" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <div id = "contact" class="anchor"></div>
 <section class="w3l-contact-1 py-5">
     <h5 class="title-small text-center">Contact Me</h5>
@@ -281,27 +296,38 @@
     </div>
 </section>
 
-
-
-
-
-
-
-
 </div>
 </template>
 
+
+
 <script>
 import data from '~/static/api/data.json'
+import PostItem from '@/components/PostItem.vue';
+import Loader from '@/components/Loader.vue';
+import axios from "axios";
+
 export default {
+    components:{
+        Loader,
+        PostItem
+    },
     
     name:"index",
     data(){
         return {
             data:data,
-			
-        }
+            posts: [],
+        };
     },
+  async fetch() {
+    const { data: posts } = await axios.get(
+      "https://public-api.wordpress.com/rest/v1.1/sites/imchipy.wordpress.com/posts"
+    );
+    this.posts = posts.posts;
+    },
+    
+
     head() {
       return {
         title: 'Home : '+this.data.main.name,
