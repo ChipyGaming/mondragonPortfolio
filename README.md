@@ -6,7 +6,9 @@
 [![Blog Database][Blog-image]][Blog-url]
 
 > Portfolio site to demonstrate my skills, past projects, and employement
+## Latest Update
 
+**New Blog Post. Fixed Bugs**
 ---
 ## Author
 
